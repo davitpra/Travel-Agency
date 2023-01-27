@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const CardRecomended = ({ location, country, path }) => {
+export const RecomendationCard = ({ location, country, path }) => {
   return (
     <li
       id='cardRecomended'

@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '@/styles/tailwind.css'
 // importamos el font desde next
 import { Montserrat } from '@next/font/google'
 

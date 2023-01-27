@@ -1,16 +1,15 @@
-import { CardRecomended } from '@/components/CardRecomended'
+import { RecomendationCard } from '@/components/RecomendationCard'
 import { RecomendationList } from '@/components/RecomendationList'
+import { Title } from '@/components/Title'
 import { Places } from 'places'
 
 export function OurRecomendation () {
   return (
     <>
-      <p className='text-3xl text-primary font-semibold mt-6 ml-4'>
-        Recomendados
-      </p>
+      <Title text='Recomendados' />
       <RecomendationList>
         {
-          Places.map(place => <CardRecomended {...place} key={place.location} />)
+          Places.map(place => <RecomendationCard {...place} key={place.location} />)
         }
       </RecomendationList>
     </>

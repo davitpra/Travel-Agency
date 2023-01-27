@@ -1,6 +1,6 @@
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='w-full h-1/5 flex-none'>Footer</div>
   )
 }

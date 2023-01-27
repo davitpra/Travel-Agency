@@ -15,8 +15,9 @@ export default function Home () {
         <OurRecomendation />
         <TrendingStays />
         <FAQs />
+        <Footer />
       </section>
-      <Footer />
+
     </>
   )
 }
