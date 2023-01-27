@@ -15,7 +15,8 @@
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "standard": "^17.0.0"
+    "standard": "^17.0.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
@@ -24,7 +25,7 @@
   },
   "lint": "standard",
   "eslintConfig": {
-    "extends":[
+    "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
   }
