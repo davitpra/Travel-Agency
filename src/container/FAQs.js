@@ -1,6 +1,6 @@
 import { Question } from '@/components/Question'
 import { Title } from '@/components/Title'
-import { faqs } from 'faqs'
+import { faqs } from 'data/faqs'
 
 export function FAQs () {
   return (

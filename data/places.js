@@ -1,4 +1,4 @@
-export const Places = [
+export const places = [
   {
     location: 'Lofoten Islands',
     country: 'Noruega',

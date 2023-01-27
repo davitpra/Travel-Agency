@@ -1,6 +1,6 @@
 import { Title } from '@/components/Title'
 import { TrendingCard } from '@/components/TrendingCard'
-import { trending } from 'trending'
+import { trending } from 'data/trending'
 
 export function TrendingStays () {
   return (

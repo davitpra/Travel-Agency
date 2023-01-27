@@ -2,7 +2,7 @@ export function Hero () {
   return (
     <article
       // se anade bg-cover para cubrir y bg-fixed para que no se mueva
-      className='w-full h-3/4 py-4 my-4 flex flex-col items-center justify-between bg-cover bg-top bg-fixed static'
+      className='w-full h-3/4 py-4 my-4 flex flex-col items-center space-y-96 bg-cover bg-top bg-fixed static'
       // se utiliza Style para traer la imagen xq tailwind me fallo
       style={{ backgroundImage: 'url(\'../img/sanFrancisco.jpg\')' }}
     >

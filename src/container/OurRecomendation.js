@@ -1,7 +1,7 @@
 import { RecomendationCard } from '@/components/RecomendationCard'
 import { RecomendationList } from '@/components/RecomendationList'
 import { Title } from '@/components/Title'
-import { Places } from 'places'
+import { places } from 'data/places'
 
 export function OurRecomendation () {
   return (
@@ -9,7 +9,7 @@ export function OurRecomendation () {
       <Title text='Recomendados' />
       <RecomendationList>
         {
-          Places.map(place => <RecomendationCard {...place} key={place.location} />)
+          places.map(place => <RecomendationCard {...place} key={place.location} />)
         }
       </RecomendationList>
     </>
