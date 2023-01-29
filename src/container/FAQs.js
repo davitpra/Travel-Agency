@@ -4,11 +4,11 @@ import { faqs } from 'data/faqs'
 
 export function FAQs () {
   return (
-    <>
+    <div id='FAQs'>
       <Title text='FAQs' />
       {faqs.map(ques =>
-        <Question {...ques} key={ques} />
+        <Question {...ques} key={ques.question} />
       )}
-    </>
+    </div>
   )
 }

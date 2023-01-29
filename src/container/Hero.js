@@ -5,6 +5,7 @@ export function Hero () {
       className='w-full h-3/4 py-4 my-4 flex flex-col items-center space-y-96 bg-cover bg-top bg-fixed static'
       // se utiliza Style para traer la imagen xq tailwind me fallo
       style={{ backgroundImage: 'url(\'../img/sanFrancisco.jpg\')' }}
+      id='home'
     >
       <input
         type='search'

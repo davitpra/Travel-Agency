@@ -4,6 +4,7 @@ import { TrendingStays } from '@/container/TrendingStays'
 import { FAQs } from '@/container/FAQs'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/container/Footer'
+import TabBar from '../container/TabBar'
 
 export default function Home () {
   return (
@@ -16,7 +17,7 @@ export default function Home () {
         <FAQs />
         <Footer />
       </section>
-      <div id='tab_bar' />
+      <TabBar />
     </>
   )
 }
