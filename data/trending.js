@@ -9,7 +9,7 @@ export const trending = [
     name: 'Los Angeles',
     description: '4 habitaciones, 3 dormitorios, cocina y piscina privada',
     path: '../img/LA.jpg',
-    background: false
+    background: true
   },
   {
     name: 'Miami',

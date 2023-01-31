@@ -5,7 +5,10 @@ import { places } from 'data/places'
 
 export function OurRecomendation () {
   return (
-    <div id='recomended'>
+    <div
+      id='recomended'
+      className='bg-white pt-4'
+    >
       <Title text='Recomendados' />
       <RecomendationList>
         {

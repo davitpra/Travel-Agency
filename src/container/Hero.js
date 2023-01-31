@@ -1,17 +1,32 @@
 import { Button } from '@/components/Button'
 import { SearchBar } from '@/components/SearchBar'
+import Image from 'next/image'
+import sanFranciscoDesktop from '../../public/img/sanFranciscoDesktop.jpg'
 
 export function Hero () {
   return (
     <article
-      // se anade bg-cover para cubrir y bg-fixed para que no se mueva
-      className='w-full h-3/4 py-4 my-4 flex flex-col items-center space-y-96 bg-cover bg-top bg-fixed static lg:hidden'
-      // se utiliza Style para traer la imagen xq tailwind me fallo
-      style={{ backgroundImage: 'url(\'../img/sanFrancisco.jpg\')' }}
+      className='w-full h-screen lg:h-96'
       id='home'
     >
-      <SearchBar />
-      <Button text='Explorar' />
+      <div class='hidden h-auto lg:w-2/5 lg:flex p-10 pb-2'>
+        <p class='text-4xl font-bold text-black'>Encuentra más ubicaciones como esta</p>
+      </div>
+      <div
+        className='flex flex-col items-center justify-evenly space-y-96 py-4 lg:space-y-0 lg:items-start lg:justify-start lg:p-20'
+      >
+        <SearchBar />
+        <Button text='Explorar' />
+      </div>
+
+      <Image
+        fill
+        src={sanFranciscoDesktop}
+        alt='San Francisco'
+        className='-z-10 object-cover'
+        priority
+      />
+
     </article>
   )
 }
