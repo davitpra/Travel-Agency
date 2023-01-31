@@ -4,10 +4,13 @@ import { trending } from 'data/trending'
 
 export function TrendingStays () {
   return (
-    <div id='treding'>
+    <div
+      id='treding'
+      className='dark:bg-darkPrimary'
+    >
       <Title text='Rentas Destacadas' />
       <div
-        className='flex m-6 flex-col  justify-center space-y-4 items-center md:grid md:grid-cols-2 md:gap-2 md:space-y-0'
+        className='flex m-6 mb-0 flex-col  justify-center space-y-4 items-center md:grid md:grid-cols-2 md:gap-2 md:space-y-0'
       >
         {trending.map(card => <TrendingCard {...card} key={card.name} />)}
       </div>

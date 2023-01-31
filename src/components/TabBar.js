@@ -7,7 +7,7 @@ const SIZE = '32px'
 export default function TabBar () {
   return (
     <nav
-      className='w-full h-auto  bg-white px-6 py-4 flex items-center justify-between space-x-10 fixed left-0 bottom-0 lg:hidden'
+      className='w-full h-auto  bg-white px-6 py-4 flex items-center justify-between space-x-10 fixed left-0 bottom-0 lg:hidden dark:bg-darkPrimary'
     >
       <a href='#home'>
         <AiFillHome size={SIZE} color='gray' />

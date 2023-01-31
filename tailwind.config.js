@@ -11,7 +11,9 @@ module.exports = {
       ...colors,
       primary: '#CC2D4A',
       secondary: '#8FA206',
-      terciary: '#61AEC9'
+      terciary: '#61AEC9',
+      darkPrimary: '#27272a',
+      darkSecondary: '#525252'
     },
     ringColor: {
       primary: '#CC2D4A',

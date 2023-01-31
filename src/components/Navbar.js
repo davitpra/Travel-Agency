@@ -6,7 +6,7 @@ const SIZE = '20px'
 export function Navbar () {
   return (
     <nav
-      className='w-full h-14 hidden bg-white lg:flex lg:fixed lg:z-10 p-4 justify-between border-b-4 border-cyan-600"'
+      className='w-full h-14 hidden bg-white lg:flex lg:fixed lg:z-10 p-4 justify-between border-b-4 border-primary dark:bg-darkPrimary dark:border-gray-500'
     >
       <div className='h-auto w-auto'>
         <p className='text-xl text-primary font-black'> Travel Agency </p>

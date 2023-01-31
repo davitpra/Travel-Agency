@@ -7,7 +7,7 @@ export function OurRecomendation () {
   return (
     <div
       id='recomended'
-      className='bg-white dark:bg-black pt-4'
+      className='bg-white dark:bg-darkPrimary pt-2'
     >
       <Title text='Recomendados' />
       <RecomendationList>

@@ -11,12 +11,12 @@ export function TrendingCard ({ name, description, path, background }) {
         {
         background
           ? <p className='text-3xl pb-1 font-semibold pt-24 text-white'> {name}</p>
-          : <p className='text-3xl pb-1 font-semibold'> {name}</p>
+          : <p className='text-3xl pb-1 font-semibold text-black'> {name}</p>
         }
         {
         background
           ? <p className='text-lg font-bold  text-white'>{description}</p>
-          : <p className='text-lg font-bold'>{description}</p>
+          : <p className='text-lg font-bold text-black'>{description}</p>
         }
       </div>
     </div>

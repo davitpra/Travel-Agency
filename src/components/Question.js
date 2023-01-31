@@ -1,7 +1,7 @@
 
 export function Question ({ question, answer }) {
   return (
-    <div className='m-6'>
+    <div className='px-6 pt-4'>
       <p
         className='text-lg font-bold text-primary pb-2'
       >
