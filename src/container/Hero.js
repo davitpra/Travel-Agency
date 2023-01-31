@@ -6,10 +6,10 @@ import sanFranciscoDesktop from '../../public/img/sanFranciscoDesktop.jpg'
 export function Hero () {
   return (
     <article
-      className='w-full h-screen lg:h-96'
+      className='w-full h-[40rem] lg:h-[30rem]'
       id='home'
     >
-      <div class='hidden h-auto lg:w-2/5 lg:flex p-10 pb-2'>
+      <div class='hidden h-auto lg:w-2/5 lg:flex p-16 pb-0 pt-24'>
         <p class='text-4xl font-bold text-black'>Encuentra más ubicaciones como esta</p>
       </div>
       <div

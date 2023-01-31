@@ -4,7 +4,7 @@ import { TrendingStays } from '@/container/TrendingStays'
 import { FAQs } from '@/container/FAQs'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/container/Footer'
-import TabBar from '../container/TabBar'
+import TabBar from '../components/TabBar'
 
 export default function Home () {
   return (

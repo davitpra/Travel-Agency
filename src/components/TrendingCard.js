@@ -2,7 +2,7 @@
 export function TrendingCard ({ name, description, path, background }) {
   return (
     <div
-      className=' w-full h-96 bg-cover bg-top rounded-xl'
+      className=' w-full h-[30rem] bg-cover bg-top rounded-xl'
       style={{ backgroundImage: `url('${path}')` }}
     >
       <div
@@ -10,7 +10,7 @@ export function TrendingCard ({ name, description, path, background }) {
       >
         {
         background
-          ? <p className='text-3xl pb-1 font-semibold pt-16 text-white'> {name}</p>
+          ? <p className='text-3xl pb-1 font-semibold pt-24 text-white'> {name}</p>
           : <p className='text-3xl pb-1 font-semibold'> {name}</p>
         }
         {

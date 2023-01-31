@@ -6,7 +6,10 @@ const SIZE = '24px'
 
 export const Footer = () => {
   return (
-    <div className='w-full h-auto flex-none mx-6 space-y-2'>
+    <div
+      className='w-full h-auto flex-none mx-6 space-y-2'
+      id='sobre_nosotros'
+    >
       <p
         className='text-lg'
       >Acerca de
