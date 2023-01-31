@@ -1,4 +1,5 @@
-import { BsFillMoonFill, BsFillPersonFill, BsSearch } from 'react-icons/bs'
+import { BsFillPersonFill, BsSearch } from 'react-icons/bs'
+import { DarkMode } from './DarkMode'
 
 const SIZE = '20px'
 
@@ -21,9 +22,7 @@ export function Navbar () {
         <a href=''>
           <BsSearch size={SIZE} color='gray' />
         </a>
-        <a href=''>
-          <BsFillMoonFill size={SIZE} color='gray' />
-        </a>
+        <DarkMode />
         <a href='./registrationForm.html'>
           <BsFillPersonFill size={SIZE} color='gray' />
         </a>

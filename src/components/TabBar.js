@@ -1,5 +1,6 @@
 import { AiFillHome, AiFillLike } from 'react-icons/ai'
-import { BsFillMoonFill, BsFillPersonFill, BsSearch } from 'react-icons/bs'
+import { BsFillPersonFill, BsSearch } from 'react-icons/bs'
+import { DarkMode } from './DarkMode'
 
 const SIZE = '32px'
 
@@ -17,9 +18,7 @@ export default function TabBar () {
       <a href='#home'>
         <BsFillPersonFill size={SIZE} color='gray' />
       </a>
-      <a>
-        <BsFillMoonFill size={SIZE} color='gray' />
-      </a>
+      <DarkMode />
       <a href='#treding'>
         <BsSearch size={SIZE} color='gray' />
       </a>
